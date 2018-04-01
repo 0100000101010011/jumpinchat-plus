@@ -1,9 +1,9 @@
 {
-    "name": "Jumpin.chat Tools",
+    "name": "Jumpin.chat Plus",
     "manifest_version": 2,
     "version": "0.0.1",
 
-    "description": "Supe up your Jumpin.chat",
+    "description": "Upgrade your Jumpin.chat room",
     "icons": {
         "16": "support.png",
         "48": "support.png",
@@ -18,7 +18,7 @@
     }],
 
     "browser_action": {
-        "default_title": "Supe up your Jumpin.chat",
+        "default_title": "Upgrade your Jumpin.chat room",
         "default_icon": "support.png"
     }
 
