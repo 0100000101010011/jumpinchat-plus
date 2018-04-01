@@ -12,10 +12,10 @@ Compatible only with the [JumpInChat Video Chat Room](https://jumpin.chat/) serv
 
 ## Jumpin.chat Plus
 
-Name: [JumpInChat Plus Plus](https://seggido.com)
+Name: [JumpInChat Plus](https://seggido.com)
 
 URI: [seggido.com](https://seggido.com) 
 
 More Info: [Wiki](https://github.com/0100000101010011/jumpinchat-plus/wiki)
 
-JumpInChat Plus Plus is a Google Chrome extension that provides more options and customizations to your jumpin.chat room for a better experience.
+JumpInChat Plus is a Google Chrome extension that provides more options and customizations to your jumpin.chat room for a better experience.
