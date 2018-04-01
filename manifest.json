@@ -3,7 +3,7 @@
     "manifest_version": 2,
     "version": "0.0.1",
 
-    "description": "JumpInChat Plus Plus is a Google Chrome extension that provides more options and customizations to your jumpin.chat room for a better experience",
+    "description": "JumpInChat Plus is a Google Chrome extension that provides more options and customizations to your jumpin.chat room for a better experience",
     "icons": {
         "16": "support.png",
         "48": "support.png",
@@ -18,7 +18,7 @@
     }],
 
     "browser_action": {
-        "default_title": "JumpInChat Plus Plus is a Google Chrome extension that provides more options and customizations to your jumpin.chat room for a better experience",
+        "default_title": "JumpInChat Plus is a Google Chrome extension that provides more options and customizations to your jumpin.chat room for a better experience",
         "default_icon": "support.png"
     }
 
