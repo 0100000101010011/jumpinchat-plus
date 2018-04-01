@@ -1,0 +1,25 @@
+{
+    "name": "Jumpin.chat Tools",
+    "manifest_version": 2,
+    "version": "0.0.1",
+
+    "description": "Supe up your Jumpin.chat",
+    "icons": {
+        "16": "support.png",
+        "48": "support.png",
+        "128": "support.png"
+    },
+
+    "content_scripts": [{
+      "matches": ["https://jumpin.chat/*"],
+      "css": ["font-awesome.min.css", "main.css"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }],
+
+    "browser_action": {
+        "default_title": "Supe up your Jumpin.chat",
+        "default_icon": "support.png"
+    }
+
+}

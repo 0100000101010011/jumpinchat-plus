@@ -1,0 +1,93 @@
+.jumpinchat-tools-container
+{
+  position: fixed;
+  top: 95px;
+  right: 0;
+
+  margin: 10px;
+  padding: 0;
+
+  color: #fff;
+}
+
+.jumpinchat-tools-container .options
+{
+  cursor: pointer;
+}
+
+.jumpinchat-tools-container .fa-gear:before,
+.fa-cog:before
+{
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  font-family: 'FontAwesome';
+  font-size: 25px;
+  font-style: normal;
+  text-align: right;
+
+  color: #c7cfd9;
+
+  content: '\f013';
+}
+
+.jumpinchat-tools-container .option-list
+{
+  visibility: hidden;
+
+  padding: 0;
+
+  -webkit-transition: visibility .5s, opacity .5s;
+       -o-transition: visibility .5s, opacity .5s;
+          transition: visibility .5s, opacity .5s;
+}
+
+.jumpinchat-tools-container .option-list .show
+{
+  visibility: visible;
+
+  -webkit-transition: visibility .5s, opacity .5s;
+       -o-transition: visibility .5s, opacity .5s;
+          transition: visibility .5s, opacity .5s;
+}
+
+.jumpinchat-tools-container .fa-gear:before:hover,
+.fa-cog:before:hover
+{
+  visibility: visible;
+}
+
+.jumpinchat-tools-container li
+{
+  list-style: none;
+
+  padding: 5px 5px 5px 25px;
+
+  text-align: center;
+
+  border-radius: 100px;
+  border-radius: unset;
+  background: #22add5;
+
+  cursor: pointer;
+
+  -webkit-clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.jumpinchat-tools-container li.active
+{
+  background: rgb(78, 154, 6);
+}
+
+.jumpinchat-tools .chat__MessageBody
+{
+  color: #000;
+}
+
+.sizeText
+{
+  font-size: 20px;
+}
